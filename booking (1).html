@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Booking Form</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header><h1>Booking Page</h1></header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="booking.html">Booking</a>
+    <a href="help.html">Help</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <main>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Guest Booking Form</legend>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="major">Major:</label>
+        <select id="major" name="major" required>
+          <option value="">--Select--</option>
+          <option value="cs">Computer Science</option>
+          <option value="it">Information Technology</option>
+          <option value="biz">Business</option>
+        </select>
+
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+
+        <p>Hobbies:</p>
+        <input type="checkbox" id="coding" name="hobbies" value="coding">
+        <label for="coding">Coding</label>
+
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label>
+
+        <input type="checkbox" id="music" name="hobbies" value="music">
+        <label for="music">Music</label>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="40"></textarea>
+
+        <button type="submit">Submit Booking</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>&copy; 2025 Somali Cars</footer>
+</body>
+</html>
